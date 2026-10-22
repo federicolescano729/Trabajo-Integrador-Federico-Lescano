@@ -18,18 +18,138 @@
             <a href="Contacto">Contacto</a>
         </nav>
 
-        <div class="Iconos">
-            <img src="Imagenes/logo ig.avif" alt="Icono de Instagram">
-            <img src="Imagenes/Logo de fc.jpg" alt="Icono de Facebook">
-            <img src="Imagenes/Logo de bolsa de compra.png" alt="Icono de bolsa de compra">
+        <div class="iconos">
+            <a href="#"> <img src="assets/img/logo ig.avif" alt="Icono de Instagram"> </a>
+            <a href="#"> <img src="assets/img/Logo de fc.jpg" alt="Icono de Facebook"> </a>
+            <a href="#"><img src="assets/img/Logo de bolsa de compra.png" alt="Icono de bolsa de compra"> </a>
         </div>
     </header>
 
-    <section>
-        <main>
+    <main>
+        <section id="inicio" class="Hero">
             <h1>Moda que te acompaña</h1>
-        </main>
-    </section>
+            <p>Descubrí prendas unicas, comodas y al mejor precio para todos los dias.</p>
+            <a href="#categorias" class="Boton">Ver Coleccion</a>
+            <img src="assets/img/banner main.png" alt="Banner del Menu">
+
+        </section>
+
+        <section id="categorias">
+            <h3>Nuestras categorias</h3>
+            <h2> Lo que más te gusta</h2>
+
+            <div class="card">
+                <img src="assets/img/remeras.png" alt="Remeras y tops">
+                <h3>Remeras y Tops</h3>
+                <p>Básicos y tendencia para todos tus looks.</p>
+                <a href="#">Ver Más</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/img/Pantalones.png" alt="Jeans y Pantalones">
+                <h3>Jeans y Pantalones</h3>
+                <p>Comodidad y estilo en cada paso.</p>
+                <a href="#">Ver más</a>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h3>Galeria</h3>
+            <h2>Nuestras Prendas</h2>
+
+            <div>
+                <img src="assets/img/prenda 1 remera.png" alt="Prenda 1">
+                <img src="assets/img/prenda 2 jean.png" alt="Prenda 2">
+                <img src="assets/img/prenda 3 campera.png" alt="Prenda 3">
+                <img src="assets/img/prenda 4 remera.png" alt="Prenda 4">
+                <img src="assets/img/prenda 5 falda.png" alt="Prenda 5">
+                <img src="assets/img/prenda 6 remera.png" alt="Prenda 6">
+                <img src="assets/img/prenda 7 falda.png" alt="Prenda 7">
+                <img src="assets/img/prenda 8 campera.png" alt="Prenda 8">
+            </div>
+        </section>
+
+        <section id="formulario">
+            <h3>Contacto</h3>
+            <h2>Escribinos</h2>
+
+            <div class="info-contacto">
+
+                <div class="items-contacto">
+                    <img src="assets/img/logo de maps.png" alt="icono de maps">
+                    <p>Realizamos envios a todo el pais</p>
+                </div>
+
+                <div class="items-contacto">
+                    <img src="assets/img/logo tarjeta de credito.png" alt="icono tarjeta de credito">
+                    <p>Multiples medios de pago</p>
+                </div>
+
+                <div class="items-contacto">
+                    <img src="assets/img/logo corazon.png" alt="icono de corazon">
+                    <p>Atención personalizada</p>
+                </div>
+                
+            </div>
+
+            <div class="datos-contacto">
+                <div class="campo">
+                    <label for="nombre">Nombre *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                 <div class="campo">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="Tu @gmail.com" required>
+                </div>
+
+                 <div class="campo">
+                    <label for="telefono">Telefono *</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Ej: 11 1234 5678" required>
+                </div>
+
+                <div class="campo">
+                    <label for="motivo">Motivo de contacto *</label>
+                    <select id="motivo" name="motivo" required>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Compra">Compra</option>
+                        <option value="Talles">Consulta sobre talles</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <p>¿Como nos conociste? *</p>
+                    <label for="inputinstagram">Instagram</label>
+                    <input type="radio" id="inputinstagram" name="contacto"required>
+
+                    <label for="inputfacebook">Facebook</label>
+                    <input type="radio" id="inputfacebook" name="contacto"required>
+
+                    <label for="inputrecomendacion">Recomendación</label>
+                    <input type="radio" id="inputrecomendacion" name="contacto"required>
+
+                    <label for="inputotro">Otro</label>
+                    <input type="radio" id="inputotro" name="contacto"required>
+                </div>
+
+                <div class="campo">
+                    <label for="Mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribí tu mensaje" cols="30" rows="5" required></textarea>
+                </div>
+
+                <div class="botones-formulario">
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+
+
+
+                
+            </div>
+
+        </section>
+    </main>
     
 </body>
 </html>
