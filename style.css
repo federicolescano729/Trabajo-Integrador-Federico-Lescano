@@ -47,7 +47,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #171714;
+    color: #171414;
 }
 
 .boton {
@@ -59,3 +59,89 @@ header nav a {
     border-radius: 6px;
 }
 
+.titulo-principal {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    text-align: center;
+    color: #171414;
+}
+
+.descripcion-hero {
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+    text-align:center;
+    color: #555555;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+
+}
+
+.hero img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: contain;
+}
+
+.contenedor-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.galeria img {
+    width: 220px;
+    height: 250px;
+    object-fit: contain;
+    background-color: blue;
+}
+
+section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    text-align: center;
+    color: #171414;
+    background-color: aqua;
+}
+
+section h3 {
+    font-family: "DM Sans",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #8b6b61;
+    background-color: green;
+}
+
+section {
+    padding: 20px 40px;
+}
