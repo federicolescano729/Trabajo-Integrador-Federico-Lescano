@@ -57,7 +57,7 @@ header nav a {
     color: #171414;
 }
 
-/* Boton Ver Colección */
+/* Boton de Ver Colección */
 .Boton {
     display: inline-block;
     background-color: #171414;
@@ -395,6 +395,7 @@ footer a.logo-footer {
     height: 35px;
     object-fit: contain;
 }
+
 
 
 

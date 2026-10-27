@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cari Indumentarias</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -24,18 +24,15 @@
             <span class="nombre-marca">CARI INDUMENTARIAS</span>
         </a>
 
-        <!-- Enlaces a la secciones de la página -->
+        <!-- Enlaces a la secciones de las páginas -->
         <nav>
-
             <a href="#inicio">Inicio</a>
             <a href="#categorias">Categorías</a>
             <a href="#galeria">Galería</a>
             <a href="#contacto">Contacto</a>
-
         </nav>
 
         <div class="iconos">
-
             <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> 
                 <i class="bi bi-instagram"> </i>
             </a>
@@ -47,9 +44,7 @@
             <a href="https://wa.me/5491138786218" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp">
                 <i class="bi bi-whatsapp"></i>
             </a>
-
         </div>
-
     </header>
 
     <!-- Contenido Principal de la página -->
@@ -57,7 +52,6 @@
 
         <!-- Sección inicio: Presentación de la marca -->
         <section id="inicio" class="hero">
-
             <div class="contenido-hero"> 
                 <h1 class="titulo-principal">CARI</h1>
                 <p class="subtitulo-hero">INDUMENTARIAS</p>
@@ -65,21 +59,16 @@
                 <p class="descripcion-hero">Descubrí prendas únicas, cómodas y al mejor precio para todos los días.</p>
 
                 <a href="#categorias" class="Boton">Ver colección</a>
-
             </div>
-
             <img src="assets/img/banner main.png" alt="Banner principal">
-
         </section>
 
         <!-- Sección Categorías: Tarjetas -->
         <section id="categorias">
-
             <h3>Nuestras categorías</h3>
             <h2>Lo que más te gusta</h2>
 
-            <div class="contenedor-categorias">
-                
+            <div class="contenedor-categorias">        
                 <div class="card">
                    <img src="assets/img/remeras.png" alt="Remeras y tops">
 
@@ -87,8 +76,7 @@
                         <h3>Remeras y tops</h3>
                         <p>Básicos y tendencia para todos tus looks.</p>
                         <a href="#galeria">Ver Más</a>
-                   </div>
-                    
+                   </div>        
                 </div>
 
                 <div class="card">
@@ -98,22 +86,18 @@
                         <h3>Jeans y pantalones</h3>
                         <p>Comodidad y estilo en cada paso.</p>
                         <a href="#galeria">Ver más</a>
-                    </div>
-                    
+                    </div>                   
                 </div>
-
             </div>
 
         </section>
 
         <!-- Sección Galeria -->
         <section id="galeria">
-
             <h3>Galería</h3>
             <h2>Nuestras prendas</h2>
 
             <div class="galeria">
-
                 <img src="assets/img/prenda 1 remera.png" alt="Remera negra">
                 <img src="assets/img/prenda 2 jean.png" alt="Jean Rosa">
                 <img src="assets/img/prenda 3 campera.png" alt="Campera beige">
@@ -122,7 +106,6 @@
                 <img src="assets/img/prenda 6 remera.png" alt="Remera blanca">
                 <img src="assets/img/prenda 7 falda.png" alt="Short beige">
                 <img src="assets/img/prenda 8 campera.png" alt="Campera rosa">
-
             </div>
 
         </section>
@@ -131,31 +114,25 @@
         <section id="contacto">
 
            <div class="titulo-contacto">
-            <h3>Contacto</h3>
-            <h2>Escribinos</h2> 
+               <h3>Contacto</h3>
+               <h2>Escribinos</h2> 
            </div> 
 
-            <div class="info-contacto">
+            <div class="info-contacto">       
 
                 <div class="items-contacto">
-
                     <img src="assets/img/logo de maps.png" alt="icono de ubicacion">
                     <p>Realizamos envíos a todo el país</p>
-
                 </div>
 
                 <div class="items-contacto">
-
                     <img src="assets/img/logo tarjeta de credito.png" alt="icono tarjeta de credito">
                     <p>Múltiples medios de pago</p>
-
                 </div>
 
                 <div class="items-contacto">
-
                     <img src="assets/img/logo corazon.png" alt="icono de corazon">
                     <p>Atención personalizada</p>
-
                 </div>
                 
             </div>
@@ -164,28 +141,21 @@
             <form action="https://formspree.io/f/xjyyylrw" method="post" class="datos-contacto">
 
                 <div class="campo">
-
                     <label for="nombre">Nombre y Apellido *</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre y Apellido" required>
-
                 </div>
 
                  <div class="campo">
-
                     <label for="email">Email *</label>
                     <input type="email" id="email" name="email" placeholder="tu@gmail.com" required>
-
                 </div>
 
                  <div class="campo">
-
                     <label for="telefono">Teléfono *</label>
                     <input type="tel" id="telefono" name="telefono" placeholder="ej: 11 1234 5678" required>
-
                 </div>
 
                 <div class="campo">
-
                     <label for="motivo">Motivo de contacto *</label>
                     <select id="motivo" name="motivo" required>
                         <option value="">Seleccioná una opción</option>
@@ -194,86 +164,61 @@
                         <option value="Talles">Consulta sobre talles</option>
                         <option value="Otros">Otros</option>
                     </select>
-
                 </div>
 
                 <div class="campo">
-
                     <p>¿Cómo nos conociste? *</p>
 
                     <div class="opciones-radio">
                         <div>
                             <input type="radio" id="inputinstagram" name="contacto" value="instagram" required>
                             <label for="inputinstagram">Instagram</label>
-
                         </div>
 
                         <div>
-
                             <input type="radio" id="inputfacebook" name="contacto" value="facebook">
                             <label for="inputfacebook">Facebook</label> 
-
                         </div>
 
                         <div>
-
                             <input type="radio" id="inputrecomendacion" name="contacto" value="recomendacion">
                             <label for="inputrecomendacion">Recomendación</label>
-
                         </div>
-                        
-                        
+                                           
                         <div>
-
                             <input type="radio" id="inputotro" name="contacto" value="otro">
                             <label for="inputotro">Otro</label>
-
-                        </div>
-                        
+                        </div>                        
                     </div>
-
                 </div>
 
                 <div class="campo">
-
                     <label for="mensaje">Mensaje *</label>
                     <textarea id="mensaje" name="mensaje" placeholder="Escribí tu mensaje" cols="30" rows="5" required></textarea>
-
                 </div>
 
                 <div class="botones-formulario">
-
                     <button type="reset">Limpiar</button>
                     <button type="submit">Enviar</button>
-
                 </div>
-
             </form>
-
         </section>
-
     </main>
     
     <!-- Pie de Página -->
     <footer>
-
         <a href="#inicio" class="logo-footer">
-
             <span class="nombre-marca">CARI INDUMENTARIAS</span> 
-
         </a>
 
         <nav>
-
             <a href="#inicio">Inicio</a>
             <a href="#categorias">Categorías</a>
             <a href="#galeria">Galería</a>
             <a href="#contacto">Contacto</a>
-
         </nav>
 
         <div class="iconos">
-
             <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> 
                 <i class="bi bi-instagram"> </i>
             </a>
@@ -281,18 +226,12 @@
             <a href="https://www.facebook.com/cari.ind.5" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <i class="bi bi-facebook"></i>
             </a>
-
         </div>
         
         <div class="footer-mensaje">
-
             <p>¡Gracias por ser parte de esta comunidad!</p>
             <img src="assets/img/logo corazon footer.png" alt="icono corazon">
-
         </div>
-
     </footer>
-
 </body>
-
 </html>
