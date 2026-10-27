@@ -1,3 +1,4 @@
+<!-- Página Web Cari Indumentarias -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,18 +12,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
 </head>
 
 <body>
 
+<!-- Encabezado: Logo y menú de navegación -->
     <header>
-
         <a href="#inicio" class="logo">
-
             <span class="nombre-marca">CARI INDUMENTARIAS</span>
-        
         </a>
 
+        <!-- Enlaces a la secciones de la página -->
         <nav>
 
             <a href="#inicio">Inicio</a>
@@ -34,17 +36,27 @@
 
         <div class="iconos">
 
-            <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer"> <img src="assets/img/logo ig.jpg" alt="Icono de Instagram"> </a>
-            <a href="https://www.facebook.com/cari.ind.5" target="_blank" rel="noopener noreferrer"> <img src="assets/img/Logo de fc.jpg" alt="Icono de Facebook"> </a>
-            <a href="https://wa.me/5491138786218" target="_blank" rel="noopener noreferrer"> <img src="assets/img/Logo de bolsa de compra.jpg" alt="Consultar por compras"> </a>
+            <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> 
+                <i class="bi bi-instagram"> </i>
+            </a>
+
+            <a href="https://www.facebook.com/cari.ind.5" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="https://wa.me/5491138786218" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
 
         </div>
 
     </header>
 
+    <!-- Contenido Principal de la página -->
     <main>
 
-        <section id="inicio" class="Hero">
+        <!-- Sección inicio: Presentación de la marca -->
+        <section id="inicio" class="hero">
 
             <div class="contenido-hero"> 
                 <h1 class="titulo-principal">CARI</h1>
@@ -60,6 +72,7 @@
 
         </section>
 
+        <!-- Sección Categorías: Tarjetas -->
         <section id="categorias">
 
             <h3>Nuestras categorías</h3>
@@ -93,6 +106,7 @@
 
         </section>
 
+        <!-- Sección Galeria -->
         <section id="galeria">
 
             <h3>Galería</h3>
@@ -113,6 +127,7 @@
 
         </section>
 
+        <!-- Sección Contacto: Información y Formulario -->
         <section id="contacto">
 
            <div class="titulo-contacto">
@@ -145,12 +160,13 @@
                 
             </div>
 
-            <form class="datos-contacto">
+            <!-- Formulario con envio mediante Formspree-->
+            <form action="https://formspree.io/f/xjyyylrw" method="post" class="datos-contacto">
 
                 <div class="campo">
 
-                    <label for="nombre">Nombre *</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <label for="nombre">Nombre y Apellido *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre y Apellido" required>
 
                 </div>
 
@@ -164,7 +180,7 @@
                  <div class="campo">
 
                     <label for="telefono">Teléfono *</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 11 1234 5678" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="ej: 11 1234 5678" required>
 
                 </div>
 
@@ -238,6 +254,7 @@
 
     </main>
     
+    <!-- Pie de Página -->
     <footer>
 
         <a href="#inicio" class="logo-footer">
@@ -257,8 +274,13 @@
 
         <div class="iconos">
 
-            <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer"> <img src="assets/img/logo ig.jpg" alt="Icono de Instagram"> </a>
-            <a href="https://www.facebook.com/cari.ind.5" target="_blank" rel="noopener noreferrer"> <img src="assets/img/Logo de fc.jpg" alt="Icono de Facebook"> </a>
+            <a href="https://www.instagram.com/cari.indumentarias/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> 
+                <i class="bi bi-instagram"> </i>
+            </a>
+
+            <a href="https://www.facebook.com/cari.ind.5" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
 
         </div>
         
